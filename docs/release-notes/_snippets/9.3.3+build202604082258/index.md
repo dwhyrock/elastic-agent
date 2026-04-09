@@ -7,5 +7,5 @@ This is an independent Elastic Agent release. Independent Elastic Agent releases
 
 ### Fixes [elastic-agent-9.3.3&#43;build202604082258-fixes]
 
-* Fixes memory leak related to path normalization in Elastic Defend.  The leak was introduced in 9.3.0.
+* Fixes a memory leak related to path normalization in Elastic Defend that was introduced in 9.3.0.
 * Fixes the Elastic Defend Kafka output. Handling transient or invalid metadata responses by falling back to broker-selected partitioning.
