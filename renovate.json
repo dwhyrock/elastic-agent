@@ -18,11 +18,7 @@
     "custom.regex"
   ],
   "baseBranchPatterns": [
-    "main",
-    "9.6",
-    "9.5",
-    "9.4",
-    "8.19"
+    "main"
   ],
   "labels": [
     "automation",
@@ -49,7 +45,7 @@
         "major"
       ],
       "matchBaseBranches": [
-        "!/^(main|8\\.19)$/"
+        "!/^(main)$/"
       ],
       "enabled": false
     },
